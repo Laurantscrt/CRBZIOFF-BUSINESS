@@ -1,180 +1,135 @@
-<!DOCTYPE html>
-<html lang="fr">
+<!DOCTYPE html><html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Confirmation - Carte Validée</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merci - Green Security</title>
   <style>
-    * {
-      box-sizing: border-box;
-    }
-
     body {
-      font-family: 'Poppins', sans-serif;
-      background-color: #0d0d0d;
-      color: #00ff99;
       margin: 0;
-      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
     }
-
-    .container {
-      max-width: 600px;
-      margin: 50px auto 0;
-      padding: 30px 20px;
-      background-color: #000;
-      border-radius: 15px;
-      box-shadow: 0 0 25px #00ff99;
+    header {
+      background-color: #014421;
+      color: white;
+      padding: 1rem;
       text-align: center;
     }
-
-    .logo {
-      width: 100px;
-      margin-bottom: 20px;
+    header img {
+      height: 50px;
     }
-
-    .emoji {
-      font-size: 48px;
-      margin-bottom: 20px;
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
     }
-
-    h1 {
-      font-size: 24px;
-      margin-bottom: 10px;
-    }
-
-    p {
-      font-size: 16px;
-      color: #ccc;
-    }
-
-    .btn-retour {
-      margin-top: 30px;
-      padding: 12px 25px;
-      background-color: #00ff99;
-      color: #000;
-      font-weight: bold;
-      border: none;
-      border-radius: 8px;
-      text-decoration: none;
-      display: inline-block;
-      transition: background 0.3s;
-    }
-
-    .btn-retour:hover {
-      background-color: #0f9;
-    }
-
-    section.mentions {
-      font-size: 12px;
-      color: #ccc;
-      padding: 30px 20px;
-      background-color: #111;
-      border-top: 1px solid #333;
-    }
-
-    section.mentions h3 {
-      color: #00ff99;
-    }
-
     footer {
-      background-color: #111;
-      padding: 30px 10px;
-      color: #888;
+      background-color: #eaeaea;
+      padding: 1rem;
       text-align: center;
     }
-
-    footer a {
-      color: #00ff99;
-      text-decoration: none;
-      margin: 0 10px;
+    .logos {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
     }
-
-    .partners {
-      margin-top: 20px;
-    }
-
-    .partners img {
-      width: 40px;
-      height: auto;
-      margin: 0 8px;
-      vertical-align: middle;
-      filter: grayscale(100%);
-      opacity: 0.7;
-      transition: 0.3s;
-    }
-
-    .partners img:hover {
-      filter: none;
-      opacity: 1;
-    }
-
-    @media screen and (max-width: 480px) {
-      .container {
-        margin-top: 30px;
-        padding: 20px 15px;
-      }
-
-      h1 {
-        font-size: 20px;
-      }
-
-      .emoji {
-        font-size: 36px;
-      }
-
-      .partners img {
-        width: 30px;
-        margin: 0 5px;
-      }
-
-      .btn-retour {
-        width: 100%;
-        padding: 12px 0;
-      }
+    .logos img {
+      height: 30px;
     }
   </style>
 </head>
 <body>
-
-  <div class="container">
-    <img src="logo-site.png" alt="Logo" class="logo" />
-    <div class="emoji">✅</div>
-    <h1>🎉 Félicitations, votre carte est valide</h1>
-    <p>Votre vérification a bien été prise en compte.<br>
-    Votre carte/coupon est activée et dispose de fonds disponibles.</p>
-
-    <a href="index.html" class="btn-retour">Retour à l'accueil</a>
-  </div>
-
-  <section class="mentions">
-    <h3>Mentions légales</h3>
-
-    <p><strong>Éditeur :</strong> Green Security<br>
-    Contact : <a href="mailto:alexandersoros333@gmail.com" style="color:#00ff99;">alexandersoros333@gmail.com</a><br>
-    Hébergement : <a href="https://pages.github.com" target="_blank" style="color:#00ff99;">GitHub Pages</a></p>
-
-    <p><strong>Données personnelles :</strong> Les données envoyées via ce site sont uniquement utilisées pour la vérification. Aucune donnée n’est stockée ni utilisée à des fins commerciales. Vous pouvez exercer vos droits (accès, suppression, rectification) en écrivant à l’adresse e-mail ci-dessus.</p>
-
-    <p><strong>Cookies :</strong> Ce site ne dépose aucun cookie de suivi ni traceur publicitaire.</p>
-
-    <p><strong>Responsabilité :</strong> Les informations fournies sont indicatives. Green Security décline toute responsabilité en cas de mauvaise utilisation du formulaire.</p>
-
-    <p style="text-align: center; margin-top: 20px;">&copy; 2025 Green Security. Tous droits réservés.</p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 Green Security. Tous droits réservés.</p>
-    <p>
-      <a href="#">Mentions légales</a> |
-      <a href="#">Conditions d'utilisation</a>
-    </p>
-    <div class="partners">
-      <img src="visa.png" alt="Visa" />
-      <img src="mastercard.png" alt="MasterCard" />
-      <img src="paypal.png" alt="PayPal" />
+  <header>
+    <img src="logo-site.png" alt="Logo Green Security">
+    <h1>Merci pour votre vérification</h1>
+  </header>  <main>
+    <div>
+      <h2>Votre demande a été envoyée avec succès.</h2>
+      <p>Notre équipe vous contactera sous peu.</p>
     </div>
+  </main>  <footer>
+    <p>© 2025 Green Security - Tous droits réservés.</p>
+    <div class="logos">
+      <img src="visa.png" alt="Visa">
+      <img src="mastercard.png" alt="Mastercard">
+      <img src="paypal.png" alt="Paypal">
+    </div>
+    <p><a href="mentions.html">Mentions légales</a></p>
   </footer>
-
+</body>
+</html><!DOCTYPE html><html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Merci - Green Security</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #014421;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      height: 50px;
+    }
+    main {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 2rem;
+    }
+    footer {
+      background-color: #eaeaea;
+      padding: 1rem;
+      text-align: center;
+    }
+    .logos {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    .logos img {
+      height: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo-site.png" alt="Logo Green Security">
+    <h1>Merci pour votre vérification</h1>
+  </header>  <main>
+    <div>
+      <h2>Votre demande a été envoyée avec succès.</h2>
+      <p>Notre équipe vous contactera sous peu.</p>
+    </div>
+  </main>  <footer>
+    <p>© 2025 Green Security - Tous droits réservés.</p>
+    <div class="logos">
+      <img src="visa.png" alt="Visa">
+      <img src="mastercard.png" alt="Mastercard">
+      <img src="paypal.png" alt="Paypal">
+    </div>
+    <p><a href="mentions.html">Mentions légales</a></p>
+  </footer>
 </body>
 </html>
